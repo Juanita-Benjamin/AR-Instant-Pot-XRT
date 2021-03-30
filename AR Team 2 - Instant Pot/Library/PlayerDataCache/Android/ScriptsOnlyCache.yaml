@@ -80,37 +80,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1532}
     - Class: 114
-      Script: {instanceID: 1584}
+      Script: {instanceID: 1582}
     - Class: 114
-      Script: {instanceID: 1710}
+      Script: {instanceID: 1708}
     - Class: 114
-      Script: {instanceID: 1750}
+      Script: {instanceID: 1748}
     - Class: 114
-      Script: {instanceID: 1844}
+      Script: {instanceID: 1842}
     - Class: 114
-      Script: {instanceID: 2424}
+      Script: {instanceID: 2426}
     - Class: 114
-      Script: {instanceID: 2588}
+      Script: {instanceID: 2590}
     - Class: 114
-      Script: {instanceID: 2634}
+      Script: {instanceID: 2636}
     - Class: 114
-      Script: {instanceID: 2736}
+      Script: {instanceID: 2738}
     - Class: 114
-      Script: {instanceID: 2756}
+      Script: {instanceID: 2758}
     - Class: 114
-      Script: {instanceID: 3134}
+      Script: {instanceID: 3090}
     - Class: 114
-      Script: {instanceID: 3230}
+      Script: {instanceID: 3138}
     - Class: 114
-      Script: {instanceID: 3670}
+      Script: {instanceID: 3234}
     - Class: 114
-      Script: {instanceID: 3686}
+      Script: {instanceID: 3674}
     - Class: 114
-      Script: {instanceID: 3958}
+      Script: {instanceID: 3690}
     - Class: 114
-      Script: {instanceID: 23644}
+      Script: {instanceID: 3962}
     - Class: 114
-      Script: {instanceID: 26422}
+      Script: {instanceID: 4506}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -161,29 +161,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1532}
     - Class: 114
-      Script: {instanceID: 1584}
+      Script: {instanceID: 1582}
     - Class: 114
-      Script: {instanceID: 1844}
+      Script: {instanceID: 1842}
     - Class: 114
       Script: {instanceID: 2094}
     - Class: 114
-      Script: {instanceID: 2424}
+      Script: {instanceID: 2426}
     - Class: 114
-      Script: {instanceID: 2588}
+      Script: {instanceID: 2590}
     - Class: 114
-      Script: {instanceID: 2634}
+      Script: {instanceID: 2636}
     - Class: 114
-      Script: {instanceID: 2738}
+      Script: {instanceID: 2740}
     - Class: 114
-      Script: {instanceID: 3134}
+      Script: {instanceID: 3138}
     - Class: 114
-      Script: {instanceID: 3230}
+      Script: {instanceID: 3234}
     - Class: 114
-      Script: {instanceID: 3798}
+      Script: {instanceID: 3802}
     - Class: 114
-      Script: {instanceID: 4466}
+      Script: {instanceID: 4470}
     - Class: 114
-      Script: {instanceID: 4830}
+      Script: {instanceID: 4836}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -361,6 +361,12 @@ ScriptsOnlyBuild:
     className: ActionBasedContinuousTurnProvider
   - hash:
       serializedVersion: 2
+      Hash: 51a27ea89c1582f34a67767a0d23ddb6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: InstructionSteps
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -389,6 +395,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner
     className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: ab3797cdc0865f1b1185bb4e6359536b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RotatingArrow
   - hash:
       serializedVersion: 2
       Hash: ff0d4ea993c9dc3492bad42bf07d28fd
@@ -1085,6 +1097,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit
     className: XRRayInteractor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AppController
   - hash:
       serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
@@ -2029,6 +2047,12 @@ ScriptsOnlyBuild:
     className: LocomotionSystem
   - hash:
       serializedVersion: 2
+      Hash: af497552f9b700a937a3334cceca4393
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ModelTarget
+  - hash:
+      serializedVersion: 2
       Hash: ed9f9ba4f86811683bd63e5cc6dae905
     assemblyName: Vuforia.UnityExtensions.dll
     namespaceName: Vuforia
@@ -2417,21 +2441,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit.UI
     className: XRUIInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: AppController
-  - hash:
-      serializedVersion: 2
-      Hash: af497552f9b700a937a3334cceca4393
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ModelTarget
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/George - ARScene.unity
-  playerPath: C:/Users/M00ge/Documents/GitHub/AR Team 2 - Instant Pot/AR Team 2 -
-    Instant Pot/AR Team 2 - Instant Pot/build 1.apk
+  playerPath: C:/Users/duyou/OneDrive/Desktop/AR_Instant Pot_Test_1.apk

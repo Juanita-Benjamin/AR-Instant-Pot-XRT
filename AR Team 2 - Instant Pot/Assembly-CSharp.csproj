@@ -56,13 +56,14 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\InstructionSteps.cs" />
+    <Compile Include="Assets\Scripts\RotatingArrow.cs" />
     <Compile Include="Assets\Scripts\Singleton.cs" />
     <Compile Include="Assets\Scripts\VuforiaFocus.cs" />
     <Compile Include="Assets\Scripts\AppController.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\ScreenMessage.cs" />
     <Compile Include="Assets\Scripts\ModelTarget.cs" />
-    <Compile Include="Assets\Scripts\RotatingArrow.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
