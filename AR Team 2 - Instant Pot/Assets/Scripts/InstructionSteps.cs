@@ -7,20 +7,17 @@ public class InstructionSteps : MonoBehaviour
 {
     //public GameObject backButton;
     public GameObject doneText;
-    
-    public GameObject[] steps;
-
+    public GameObject[] stepsAnimation;
+    public GameObject[] stepsText;
     public int counter = 0;
-
     [SerializeField] private float currentTime;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        stepsAnimation[counter].SetActive(true);
+        stepsText[counter].SetActive(true);
     }
-
-
 
     // Update is called once per frame
     void Update()
@@ -30,40 +27,44 @@ public class InstructionSteps : MonoBehaviour
 
     public void Next()
     {
-        
-        if ( counter <= steps.Length - 1)
+        // Check to see if we're at the end of the array.
+        if (counter != stepsAnimation.Length - 1)
         {
-            steps[counter].SetActive(true);
+            stepsAnimation[counter].SetActive(false);
+            stepsAnimation[counter + 1].SetActive(true);
+
+            stepsText[counter].SetActive(false);
+            stepsText[counter + 1].SetActive(true);
+
+            counter++;
         }
-        
         else
         {
-            Debug.Log("NOt valid");
+            // Do nothing.
+            Debug.Log("Not valid");
         }
-        counter++;
+        ScreenMessage.LogForModelTransform(counter.ToString());
     }
 
     public void Previous()
     {
-        counter--;
-        if (counter <= 0)
-        {
-            counter = 0;
-        }
-
         //get current position, then deactivate it.
         if (counter != 0)
         {
-            steps[counter - 1].SetActive(false);
-        }
+            stepsAnimation[counter].SetActive(false);
+            stepsAnimation[counter - 1].SetActive(true);
 
+            stepsText[counter].SetActive(false);
+            stepsText[counter - 1].SetActive(true);
+
+            counter--;
+        }
         else
         {
+            // Do nothing.
             Debug.Log("Not Invalid!");
         }
-        
-        
-
+        ScreenMessage.LogForModelTransform(counter.ToString());
     }
 
     public void DoneText()
