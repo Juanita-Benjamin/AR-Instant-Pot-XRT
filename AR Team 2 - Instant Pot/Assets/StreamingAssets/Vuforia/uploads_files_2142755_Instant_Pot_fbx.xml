@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="uploads_files_2142755_Instant_Pot_fbx" motionHint="static" trackingMode="default"/>
+
+</Tracking>
+
+<Assembly name="uploads_files_2142755_Instant_Pot_fbxs_assembly" assemblyId="bc690b4c2e2344839828f1724d82eb80">
+<Part name="uploads_files_2142755_Instant_Pot_fbx" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="-0.0397309 0.511508 2.81815" rotation="AD: 0.9989920699554665 0.13015091613174523 -0.3899100980291472 214.31" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>

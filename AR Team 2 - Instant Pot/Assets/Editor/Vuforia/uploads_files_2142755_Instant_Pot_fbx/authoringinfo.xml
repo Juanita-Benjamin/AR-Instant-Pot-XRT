@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="14.0" toolVersion="9.8.5">
+<ModelTarget name="uploads_files_2142755_Instant_Pot_fbx" targetId="2b43774bf60b4c91af924c3efcb09904" version="11.1" toolVersion="9.8.5" bbox="-0.585995 0.011683 -0.595638 0.583352 1.205990 0.481206" previewImage="2b43774bf60b4c91af924c3efcb09904_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="uploads_files_2142755_Instant_Pot_fbxs_assembly" assemblyId="bc690b4c2e2344839828f1724d82eb80">
+<Part name="uploads_files_2142755_Instant_Pot_fbx" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="-0.0397309 0.511508 2.81815" rotation="AD: 0.9989920699554665 0.13015091613174523 -0.3899100980291472 214.31" image="uploads_files_2142755_Instant_Pot_fbx_viewpoint_0000.png" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARInfo>
