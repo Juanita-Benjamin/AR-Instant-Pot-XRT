@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{05169C38-E695-C027-2D83-CBC3F72F2826}</ProjectGuid>
+    <ProjectGuid>{F5FF159C-7BA8-F03B-720F-18BAF7F295BF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Timeline.Editor</AssemblyName>
@@ -103,8 +103,8 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\CurveEditUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\TimelineUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\Actions\IMenuName.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\Extensions\AnimatedParameterExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\treeview\TimelineTreeViewGUI.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\Extensions\AnimatedParameterExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\Signals\SignalEmitterEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\State\ISequenceState.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\Window\Modes\TimelineDisabledMode.cs" />
@@ -165,8 +165,8 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\Utilities\AnimatedPropertyUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\Animation\AnimationClipActions.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\TimelineEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\inspectors\BuiltInCurvePresets.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\treeview\IRowGUI.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\inspectors\BuiltInCurvePresets.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\Manipulators\AddDelete\AddDeleteItemModeReplace.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\Recording\AnimationTrackRecorder.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\inspectors\GroupTrackInspector.cs" />
@@ -307,9 +307,9 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\inspectors\AnimationTrackInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\State\WindowState.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\Manipulators\Move\MoveItemModeRipple.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\inspectors\DirectorNamedColorInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\Utilities\Scopes\GUIColorOverride.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\treeview\ItemGui\TimelineClipGUI.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\inspectors\DirectorNamedColorInspector.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\Unity.Timeline.Editor.asmdef" />
@@ -909,23 +909,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{3460664E-D0FD-422B-3A08-5B310071DEE0}</Project>
+      <Project>{29746CFC-D904-7A56-3725-62AD632B39F7}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{C3D02CEB-8150-4CD4-2530-BA260E75457C}</Project>
+      <Project>{26807503-3077-C139-5A47-3807B6A84F07}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{C08FE306-29FB-3217-AC3E-799B4CEF68F4}</Project>
+      <Project>{DA4A6E06-1DDA-1DB7-0A44-73DEF85B2AF2}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{9EFAF56D-F133-8051-E2BE-9A1529BCCF73}</Project>
+      <Project>{C1501814-6289-BCB9-C697-20709D999A99}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{F9470E4D-9A24-214F-2559-58C7935829B8}</Project>
+      <Project>{0639E78E-7419-2572-7C25-E9CFAE99BC79}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

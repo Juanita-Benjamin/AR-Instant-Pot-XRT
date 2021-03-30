@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{479AA7C6-EA2D-08A5-7F96-621514F96F14}</ProjectGuid>
+    <ProjectGuid>{8CED8FFD-A0ED-8A28-DF6D-B019F30A55FF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.InputSystem</AssemblyName>
@@ -231,8 +231,8 @@
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Controls\TouchPhaseControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Plugins\Steam\SteamController.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Controls\AnyKeyControl.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Editor\Internal\EditorHelpers.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Utilities\TypeTable.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Editor\Internal\EditorHelpers.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Controls\Processors\NormalizeVector3Processor.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Controls\AxisControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Controls\Processors\ScaleVector2Processor.cs" />
@@ -270,11 +270,11 @@
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Actions\InputBindingComposite.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Controls\Vector3Control.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Actions\InputAction.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Plugins\Steam\SteamControllerType.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Plugins\Users\InputUserSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Plugins\Switch\SwitchSupportHID.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Plugins\WebGL\WebGLSupport.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Actions\IInputActionCollection.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Plugins\Steam\SteamControllerType.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Devices\Commands\InitiateUserAccountPairingCommand.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Editor\Internal\InputStateWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Plugins\UI\TrackedDeviceRaycaster.cs" />
@@ -294,8 +294,8 @@
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Devices\Pen.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Plugins\Android\AndroidKeyCode.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\State\InputStateBlock.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Devices\Commands\WarpMousePositionCommand.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Events\InputEventBuffer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Devices\Commands\WarpMousePositionCommand.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Editor\ControlPicker\InputControlPickerState.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Events\InputEventTrace.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.0\InputSystem\Devices\Commands\QueryDimensionsCommand.cs" />
@@ -891,7 +891,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{C08FE306-29FB-3217-AC3E-799B4CEF68F4}</Project>
+      <Project>{DA4A6E06-1DDA-1DB7-0A44-73DEF85B2AF2}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

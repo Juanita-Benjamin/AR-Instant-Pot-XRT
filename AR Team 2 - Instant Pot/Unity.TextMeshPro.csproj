@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{90FEB95A-8136-B6A0-CAD1-F8153415CB3F}</ProjectGuid>
+    <ProjectGuid>{994CA95C-F1CD-C9CE-2DB4-D76B9D02FBE0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.TextMeshPro</AssemblyName>
@@ -85,8 +85,8 @@
     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Runtime\TMP_UpdateRegistery.cs" />
     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Runtime\TMP_ResourcesManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Runtime\TMP_SubMesh.cs" />
-    <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Runtime\TMP_InputValidator.cs" />
     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Runtime\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Runtime\TMP_InputValidator.cs" />
     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Runtime\TMP_Asset.cs" />
     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Runtime\TMP_SpriteAssetImportFormats.cs" />
     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Runtime\TMP_LineInfo.cs" />
@@ -697,11 +697,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{C3D02CEB-8150-4CD4-2530-BA260E75457C}</Project>
+      <Project>{26807503-3077-C139-5A47-3807B6A84F07}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{C08FE306-29FB-3217-AC3E-799B4CEF68F4}</Project>
+      <Project>{DA4A6E06-1DDA-1DB7-0A44-73DEF85B2AF2}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

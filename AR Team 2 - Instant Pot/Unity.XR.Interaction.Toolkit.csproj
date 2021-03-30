@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{33305E0A-027C-5E40-7DCF-5C56CB18845A}</ProjectGuid>
+    <ProjectGuid>{F7553C1B-3B10-EEE4-1C3F-0E0354B53868}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.Interaction.Toolkit</AssemblyName>
@@ -109,8 +109,8 @@
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@0.10.0-preview.7\Runtime\XR\SortingHelpers.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@0.10.0-preview.7\Runtime\AR\Interactables\ARTranslationInteractable.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@0.10.0-preview.7\Runtime\Interaction\Interactors\XRDirectInteractor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@0.10.0-preview.7\Runtime\AR\Interactables\ARScaleInteractable.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@0.10.0-preview.7\Runtime\UI\JoystickModel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@0.10.0-preview.7\Runtime\AR\Interactables\ARScaleInteractable.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@0.10.0-preview.7\Runtime\Interaction\Interactables\XRSimpleInteractable.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@0.10.0-preview.7\Runtime\AR\Interactors\ARGestureInteractor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@0.10.0-preview.7\Runtime\Inputs\Interactions\SectorInteraction.cs" />
@@ -128,9 +128,9 @@
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@0.10.0-preview.7\Runtime\Interaction\XRInteractionUpdateOrder.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@0.10.0-preview.7\Runtime\Inputs\Simulation\XRDeviceSimulator.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@0.10.0-preview.7\Runtime\Locomotion\SnapTurn\SnapTurnProviderBase.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@0.10.0-preview.7\Runtime\Locomotion\Continuous\ContinuousMoveProviderBase.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@0.10.0-preview.7\Runtime\Inputs\Simulation\XRSimulatedController.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@0.10.0-preview.7\Runtime\UI\TrackedDeviceGraphicRaycaster.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@0.10.0-preview.7\Runtime\Locomotion\Continuous\ContinuousMoveProviderBase.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@0.10.0-preview.7\Runtime\UI\TrackedDeviceModel.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@0.10.0-preview.7\Runtime\AR\Gestures\Gesture.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@0.10.0-preview.7\Runtime\Inputs\Simulation\SimulatedInputLayoutLoader.cs" />
@@ -719,23 +719,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{6FDF16D3-FCED-A587-4913-B646DCA58A9A}</Project>
+      <Project>{0FEE27CC-76BF-DF3D-7A83-4057854BF9F7}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
-      <Project>{FB3BDB24-5F01-9FF4-46E9-B4E2AB47E876}</Project>
+      <Project>{D8F40B1B-8D7A-1EEB-1A26-78D34A5F4209}</Project>
       <Name>UnityEngine.XR.LegacyInputHelpers</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{1FEEAD56-CE5E-ED0D-0696-01B91CEF32A6}</Project>
+      <Project>{470462E5-FD63-9083-0ED0-5D0AF306A8E2}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{C3D02CEB-8150-4CD4-2530-BA260E75457C}</Project>
+      <Project>{26807503-3077-C139-5A47-3807B6A84F07}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{C08FE306-29FB-3217-AC3E-799B4CEF68F4}</Project>
+      <Project>{DA4A6E06-1DDA-1DB7-0A44-73DEF85B2AF2}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

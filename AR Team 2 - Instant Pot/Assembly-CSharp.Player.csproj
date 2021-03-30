@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0E170D1C-3797-D461-F3AB-DD4ED3BC2E06}</ProjectGuid>
+    <ProjectGuid>{A63C17C4-0C96-647C-B8D7-461AEC97630E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -58,8 +58,11 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Singleton.cs" />
     <Compile Include="Assets\Scripts\VuforiaFocus.cs" />
+    <Compile Include="Assets\Scripts\AppController.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\ScreenMessage.cs" />
+    <Compile Include="Assets\Scripts\ModelTarget.cs" />
+    <Compile Include="Assets\Scripts\RotatingArrow.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
@@ -284,15 +287,6 @@
     <Reference Include="VuforiaEditorScripts">
       <HintPath>Library\ScriptAssemblies\VuforiaEditorScripts.dll</HintPath>
     </Reference>
-    <Reference Include="EditorMigrationScripts">
-      <HintPath>Library\ScriptAssemblies\EditorMigrationScripts.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -302,8 +296,17 @@
     <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="EditorMigrationScripts">
+      <HintPath>Library\ScriptAssemblies\EditorMigrationScripts.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
       <HintPath>Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Vuforia.UnityExtensions">
       <HintPath>Library\PackageCache\com.ptc.vuforia.engine@2aa4b218a1\Vuforia\Plugins\Managed\Android\Vuforia.UnityExtensions.dll</HintPath>
@@ -655,37 +658,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
+      <Project>{D8F40B1B-8D7A-1EEB-1A26-78D34A5F4209}</Project>
+      <Name>UnityEngine.XR.LegacyInputHelpers</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{3460664E-D0FD-422B-3A08-5B310071DEE0}</Project>
+      <Project>{29746CFC-D904-7A56-3725-62AD632B39F7}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{90FEB95A-8136-B6A0-CAD1-F8153415CB3F}</Project>
+      <Project>{994CA95C-F1CD-C9CE-2DB4-D76B9D02FBE0}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.csproj">
-      <Project>{33305E0A-027C-5E40-7DCF-5C56CB18845A}</Project>
-      <Name>Unity.XR.Interaction.Toolkit</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{1FEEAD56-CE5E-ED0D-0696-01B91CEF32A6}</Project>
+      <Project>{470462E5-FD63-9083-0ED0-5D0AF306A8E2}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{C08FE306-29FB-3217-AC3E-799B4CEF68F4}</Project>
+      <Project>{DA4A6E06-1DDA-1DB7-0A44-73DEF85B2AF2}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{6FDF16D3-FCED-A587-4913-B646DCA58A9A}</Project>
+      <Project>{0FEE27CC-76BF-DF3D-7A83-4057854BF9F7}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
-      <Project>{FB3BDB24-5F01-9FF4-46E9-B4E2AB47E876}</Project>
-      <Name>UnityEngine.XR.LegacyInputHelpers</Name>
-    </ProjectReference>
     <ProjectReference Include="VuforiaScripts.csproj">
-      <Project>{7685655F-CBFD-F54D-453E-A65BAD407CAA}</Project>
+      <Project>{999B38AE-B7A5-D737-1D25-9A6670FA0141}</Project>
       <Name>VuforiaScripts</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.csproj">
+      <Project>{F7553C1B-3B10-EEE4-1C3F-0E0354B53868}</Project>
+      <Name>Unity.XR.Interaction.Toolkit</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

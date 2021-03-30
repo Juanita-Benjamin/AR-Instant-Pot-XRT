@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8E9E52BE-7E96-995F-B020-CCF90DD49E87}</ProjectGuid>
+    <ProjectGuid>{1AF60C63-2816-3176-5976-73D19E5B027E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.TestRunner</AssemblyName>
@@ -135,8 +135,8 @@
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Commands\EnumerableSetUpTearDownCommand.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\MonoBehaviourTest\IMonoBehaviourTest.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\IPrebuildSceneSetup.cs" />
-    <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Runner\UnityWorkItemDataHolder.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Attributes\UnitySetUpAttribute.cs" />
+    <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Runner\UnityWorkItemDataHolder.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\MonoBehaviourTest\MonoBehaviourTest.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\TestRunner\Callbacks\RemoteTestResultSender.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\AssemblyProvider\IAssemblyLoadProxy.cs" />
