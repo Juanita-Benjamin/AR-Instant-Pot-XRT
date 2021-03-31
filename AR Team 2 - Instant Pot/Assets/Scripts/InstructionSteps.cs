@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class InstructionSteps : MonoBehaviour
 {
@@ -9,6 +10,9 @@ public class InstructionSteps : MonoBehaviour
     public GameObject doneText;
     public GameObject[] stepsAnimation;
     public GameObject[] stepsText;
+    public GameObject instantPotModel;
+    public GameObject nextButton;
+    public GameObject backButton;
     public int counter = 0;
     [SerializeField] private float currentTime;
 
@@ -43,11 +47,30 @@ public class InstructionSteps : MonoBehaviour
             // Do nothing.
             Debug.Log("Not valid");
         }
-        ScreenMessage.LogForModelTransform(counter.ToString());
+
+        // Make the pot disappear after the first step.
+        if(counter != 0)
+        {
+            instantPotModel.SetActive(false);
+            backButton.SetActive(true);
+        }
+
+        //End of the steps so disable the next button.
+        if (counter == stepsAnimation.Length - 1)
+        {
+            nextButton.SetActive(false);
+        }
+            ScreenMessage.LogForModelTransform(counter.ToString());
     }
 
     public void Previous()
     {
+        //End of the steps so re-enable the next button.
+        if (counter == stepsAnimation.Length - 1)
+        {
+            nextButton.SetActive(true);
+        }
+
         //get current position, then deactivate it.
         if (counter != 0)
         {
@@ -63,6 +86,13 @@ public class InstructionSteps : MonoBehaviour
         {
             // Do nothing.
             Debug.Log("Not Invalid!");
+        }
+
+        // Back at the first step.
+        if (counter == 0)
+        {
+            instantPotModel.SetActive(true);
+            backButton.SetActive(false);
         }
         ScreenMessage.LogForModelTransform(counter.ToString());
     }
