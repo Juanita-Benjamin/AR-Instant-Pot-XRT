@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="14.0" toolVersion="9.8.5">
+<ModelTarget name="Instant_Pot_No_Lid" targetId="db19ac6c74fe462786e3b73d9c935a2f" version="11.1" toolVersion="9.8.5" bbox="-0.138127 -0.061838 0.001079 -0.040681 0.027899 0.071470" previewImage="db19ac6c74fe462786e3b73d9c935a2f_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="Instant_Pot_No_Lids_assembly" assemblyId="8a451c81e3aa4505ba517d0a1ecd3de5">
+<Part name="Instant_Pot_No_Lid" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0001" translation="-0.0566558 -0.0164199 0.267357" rotation="AD: 0.9982795943389234 0.3741588719046897 -0.18670953148187452 130.57" image="Instant_Pot_No_Lid_viewpoint_0001.png" trained="no">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0002" translation="-0.0891516 0.0326693 0.17598" rotation="AD: 0.9999999998144947 -0.005631276023859669 0.004305891007537851 105.196" image="Instant_Pot_No_Lid_viewpoint_0002.png" trained="no">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0003" translation="-0.0722923 0.0587518 0.14823" rotation="AD: 0.998073614572022 -0.4256905753058113 0.17032787637686908 140.038" image="Instant_Pot_No_Lid_viewpoint_0003.png" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARInfo>
