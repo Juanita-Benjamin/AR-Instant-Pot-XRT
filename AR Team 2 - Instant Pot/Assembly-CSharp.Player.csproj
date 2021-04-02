@@ -56,19 +56,23 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\InstructionSteps.cs" />
+    <Compile Include="Assets\Scripts\RotatingArrow.cs" />
     <Compile Include="Assets\Scripts\Singleton.cs" />
     <Compile Include="Assets\Scripts\VuforiaFocus.cs" />
     <Compile Include="Assets\Scripts\AppController.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\ScreenMessage.cs" />
     <Compile Include="Assets\Scripts\ModelTarget.cs" />
-    <Compile Include="Assets\Scripts\RotatingArrow.cs" />
+    <Compile Include="Assets\Scripts\RotatingRice.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\StreamingAssets\Vuforia\Instant_Pot_noLid_2.xml" />
+     <None Include="Assets\StreamingAssets\Vuforia\Instant_Pot_No_Lid.xml" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <None Include="Assets\StreamingAssets\Vuforia\uploads_files_2142755_Instant_Pot_fbx.xml" />
