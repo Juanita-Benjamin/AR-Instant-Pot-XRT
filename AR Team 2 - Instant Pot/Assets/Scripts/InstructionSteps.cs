@@ -6,6 +6,7 @@ using TMPro;
 
 public class InstructionSteps : MonoBehaviour
 {
+    public Slider slider;
     //public GameObject backButton;
     public GameObject doneText;
     public GameObject[] stepsAnimation;
@@ -101,5 +102,10 @@ public class InstructionSteps : MonoBehaviour
     {
         doneText.gameObject.SetActive(true);
     }
-
+    
+    public void IncreaseBar()
+    {
+        slider.GetComponent<Slider>();
+        slider.value += counter;
+    }
 }
