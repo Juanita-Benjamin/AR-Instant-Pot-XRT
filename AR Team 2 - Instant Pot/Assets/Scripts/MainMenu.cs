@@ -7,6 +7,6 @@ public class MainMenu : MonoBehaviour
 {
     public void LoadARScene()
     {
-        SceneManager.LoadScene("George - ARScene");
+        SceneManager.LoadScene("ARScene v1.0");
     }
 }
