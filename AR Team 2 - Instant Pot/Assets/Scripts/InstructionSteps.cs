@@ -6,7 +6,7 @@ using TMPro;
 
 public class InstructionSteps : MonoBehaviour
 {
-    public Slider slider;
+    public Image ProgressBar;
     //public GameObject backButton;
     public GameObject doneText;
     public GameObject[] stepsAnimation;
@@ -15,7 +15,6 @@ public class InstructionSteps : MonoBehaviour
     public GameObject nextButton;
     public GameObject backButton;
     public int counter = 0;
-    [SerializeField] private float currentTime;
 
     // Start is called before the first frame update
     void Start()
@@ -103,9 +102,13 @@ public class InstructionSteps : MonoBehaviour
         doneText.gameObject.SetActive(true);
     }
     
-    public void IncreaseBar()
+    public void FillUp()
     {
-        slider.GetComponent<Slider>();
-        slider.value += counter;
+        ProgressBar.fillAmount += 0.09f;
+    }
+
+    public void FillDown()
+    {
+        ProgressBar.fillAmount -= 0.09f;
     }
 }
