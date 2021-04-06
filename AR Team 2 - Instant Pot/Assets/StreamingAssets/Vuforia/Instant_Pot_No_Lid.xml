@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="Instant_Pot_No_Lid" motionHint="static" trackingMode="default"/>
+
+</Tracking>
+
+<Assembly name="Instant_Pot_No_Lids_assembly" assemblyId="8a451c81e3aa4505ba517d0a1ecd3de5">
+<Part name="Instant_Pot_No_Lid" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0001" translation="-0.0566558 -0.0164199 0.267357" rotation="AD: 0.9982795943389234 0.3741588719046897 -0.18670953148187452 130.57" trained="no">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0002" translation="-0.0891516 0.0326693 0.17598" rotation="AD: 0.9999999998144947 -0.005631276023859669 0.004305891007537851 105.196" trained="no">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0003" translation="-0.0722923 0.0587518 0.14823" rotation="AD: 0.998073614572022 -0.4256905753058113 0.17032787637686908 140.038" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>
