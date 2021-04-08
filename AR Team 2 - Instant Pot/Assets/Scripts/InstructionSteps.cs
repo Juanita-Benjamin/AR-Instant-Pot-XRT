@@ -7,6 +7,7 @@ using TMPro;
 public class InstructionSteps : MonoBehaviour
 {
     public Image ProgressBar;
+    public Slider slider;
     //public GameObject backButton;
     public GameObject doneText;
     public GameObject[] stepsAnimation;
@@ -26,7 +27,9 @@ public class InstructionSteps : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        //GameObject modelTarget = GameObject.FindWithTag("ModelTarget");
+        //ScreenMessage.LogForModelTransform(modelTarget.transform.position.y.ToString());
+        //ScreenMessage.LogForModelTransform(modelTarget.tag);
     }
 
     public void Next()
@@ -41,6 +44,8 @@ public class InstructionSteps : MonoBehaviour
             stepsText[counter + 1].SetActive(true);
 
             counter++;
+
+            slider.value = counter;
         }
         else
         {
@@ -60,7 +65,7 @@ public class InstructionSteps : MonoBehaviour
         {
             nextButton.SetActive(false);
         }
-            ScreenMessage.LogForModelTransform(counter.ToString());
+        //ScreenMessage.LogForModelTransform(counter.ToString());
     }
 
     public void Previous()
@@ -81,6 +86,8 @@ public class InstructionSteps : MonoBehaviour
             stepsText[counter - 1].SetActive(true);
 
             counter--;
+
+            slider.value = counter;
         }
         else
         {
@@ -94,7 +101,7 @@ public class InstructionSteps : MonoBehaviour
             instantPotModel.SetActive(true);
             backButton.SetActive(false);
         }
-        ScreenMessage.LogForModelTransform(counter.ToString());
+        //ScreenMessage.LogForModelTransform(counter.ToString());
     }
 
     public void DoneText()
