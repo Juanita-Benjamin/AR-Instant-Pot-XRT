@@ -13,6 +13,7 @@ public class InstructionSteps : MonoBehaviour
     public GameObject[] stepsAnimation;
     public GameObject[] stepsText;
     public GameObject instantPotModel;
+    public Material invisibleMaterial;
     public GameObject nextButton;
     public GameObject backButton;
     public int counter = 0;
@@ -31,10 +32,10 @@ public class InstructionSteps : MonoBehaviour
         GameObject modelTarget = GameObject.FindWithTag("ModelTarget");
         Transform modelTargetTransform = modelTarget.GetComponent<Transform>();
 
-         if(modelTargetPlacedPostition)
-         {
-             modelTargetTransform = modelTargetPlacedPostition;
-         }
+        if (modelTargetPlacedPostition)
+        {
+            modelTargetTransform = modelTargetPlacedPostition;
+        }
 
         //ScreenMessage.LogForModelTransform(modelTargetTransform.position.ToString() + "\n" + modelTargetTransform.rotation);
     }
@@ -69,7 +70,20 @@ public class InstructionSteps : MonoBehaviour
         // Make the pot disappear after the first step.
         if(counter != 0)
         {
-            instantPotModel.SetActive(false);
+            //Go through all the Renderer components from the all the children of the instant pot 
+            // and set all the materials to invisible.
+            Renderer[] children;
+            children = instantPotModel.GetComponentsInChildren<Renderer>();
+            foreach (Renderer rend in children)
+            {
+                var mats = new Material[rend.materials.Length];
+                for (var j = 0; j < rend.materials.Length; j++)
+                {
+                    mats[j] = invisibleMaterial;
+                }
+                rend.materials = mats;
+            }
+
             backButton.SetActive(true);
         }
 
