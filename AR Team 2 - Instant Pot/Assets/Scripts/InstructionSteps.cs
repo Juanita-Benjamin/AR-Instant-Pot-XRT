@@ -16,6 +16,7 @@ public class InstructionSteps : MonoBehaviour
     public GameObject nextButton;
     public GameObject backButton;
     public int counter = 0;
+    Transform modelTargetPlacedPostition;
 
     // Start is called before the first frame update
     void Start()
@@ -27,9 +28,15 @@ public class InstructionSteps : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //GameObject modelTarget = GameObject.FindWithTag("ModelTarget");
-        //ScreenMessage.LogForModelTransform(modelTarget.transform.position.y.ToString());
-        //ScreenMessage.LogForModelTransform(modelTarget.tag);
+        GameObject modelTarget = GameObject.FindWithTag("ModelTarget");
+        Transform modelTargetTransform = modelTarget.GetComponent<Transform>();
+
+         if(modelTargetPlacedPostition)
+         {
+             modelTargetTransform = modelTargetPlacedPostition;
+         }
+
+        //ScreenMessage.LogForModelTransform(modelTargetTransform.position.ToString() + "\n" + modelTargetTransform.rotation);
     }
 
     public void Next()
@@ -46,6 +53,12 @@ public class InstructionSteps : MonoBehaviour
             counter++;
 
             slider.value = counter;
+
+            GameObject modelTarget = GameObject.FindWithTag("ModelTarget");
+            Transform modelTargetTransform = modelTarget.GetComponent<Transform>();
+            modelTargetPlacedPostition = modelTargetTransform;
+            //ScreenMessage.LogForModelTransform2("newpos " + modelTargetPlacedPostition.position);
+
         }
         else
         {
